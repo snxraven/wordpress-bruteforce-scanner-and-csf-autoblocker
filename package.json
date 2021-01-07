@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-bruteforce-scanner-and-csf-autoblocker",
+  "version": "1.0.0",
+  "description": "NodeJS Application that scans an apache log and takes action on bad requests based on request counts.",
+  "main": "wp-login-auto-block.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snxraven/wordpress-bruteforce-scanner-and-csf-autoblocker.git"
+  },
+  "keywords": [
+    "WPBruteForce"
+  ],
+  "author": "RavenScott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snxraven/wordpress-bruteforce-scanner-and-csf-autoblocker/issues"
+  },
+  "homepage": "https://github.com/snxraven/wordpress-bruteforce-scanner-and-csf-autoblocker#readme",
+  "dependencies": {
+    "cmd-promise": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "tail": "^2.1.1"
+  }
+}
