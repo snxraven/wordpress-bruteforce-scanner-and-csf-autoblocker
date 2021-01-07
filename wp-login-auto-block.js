@@ -84,7 +84,7 @@ tail.on("line", function (data) {
             // Let the log know we are blocking the IP
             console.log("Starting to block bad IP")
             // Run the block, wait for the promise - Requests are still going on
-            cmd(`csf -d ` + key + " WP-Login Brute Force Blocked Via CHKSRV-WPBruteForceScanner").then(out => {
+            cmd(`csf -d ` + key + " WP-Login Brute Force Blocked Via WPBruteForceScanner").then(out => {
               console.log('CSF Reply: ', out.stdout)
               // The block has finished - remoteIP no longer has access
             }).catch(err => {
