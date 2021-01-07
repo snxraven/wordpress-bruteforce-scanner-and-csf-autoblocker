@@ -30,7 +30,7 @@ To compile this app without the need of NodeJS to be installed on the machine fo
 
 `` $ nexe wp-login-auto-block.js``
 
-You will then see your new binary file "nexe wp-login-auto-block.js"
+You will then see your new binary file "wp-login-auto-block"
 
 
 
